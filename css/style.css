@@ -594,7 +594,7 @@ body {
         display: none;
     }
 
-    .soil {
+    .soilmiti {
         position: absolute;
         bottom: -100px;
         z-index: 999;
