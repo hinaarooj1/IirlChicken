@@ -596,8 +596,9 @@ body {
 
     .soilmiti {
         position: absolute;
-        bottom: -100px;
+        bottom: -104px;
         z-index: 999;
+        display: none !important
     }
 
     .inline-area {
