@@ -11,7 +11,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+* {
+    scroll-behavior: smooth;
+}
 
 
 
@@ -272,6 +274,16 @@ body {
     display: none;
 }
 
+@media (max-width:1200px) {
+    .side-frame {
+        width: 280px;
+    }
+
+    .middle-frame {
+        width: 120px;
+    }
+}
+
 @media (max-width:1024px) {
     .chicken-img img {
         width: 500px;
@@ -283,6 +295,47 @@ body {
 }
 
 @media (max-width:768px) {
+    .inline-area {
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .inside-address p {
+        white-space: normal;
+        text-overflow: ellipsis;
+        display: inline-block;
+        /* max-width: 80%; */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+    }
+
+    .inside-address {
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    .token-img {
+        width: 180px;
+    }
+
+    .bottom-tractor {
+        bottom: -10px;
+    }
+
+    .side-frame {
+        width: 220px;
+    }
+
+    .middle-frame {
+        width: 80px;
+    }
+
     .navigation-dekstop .nav-ul {
 
         margin: 0;
