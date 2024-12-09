@@ -292,6 +292,11 @@ body {
     .logo-img {
         width: 500px;
     }
+
+    .token-img {
+        width: 230px;
+    }
+
 }
 
 @media (max-width:768px) {
@@ -320,9 +325,6 @@ body {
         justify-content: space-between;
     }
 
-    .token-img {
-        width: 180px;
-    }
 
     .bottom-tractor {
         bottom: -10px;
@@ -473,6 +475,10 @@ body {
 
     .min-h {
         background-position: center;
+    }
+
+    .bottom-portal img {
+        width: 50px;
     }
 }
 
