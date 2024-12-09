@@ -308,6 +308,10 @@ body {
         margin-top: 30px;
     }
 
+    .section-bg2 {
+        background-position: centersa;
+    }
+
     .inside-address p {
         white-space: normal;
         text-overflow: ellipsis;
