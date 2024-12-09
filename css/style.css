@@ -197,22 +197,22 @@ body {
 }
 
 .bg-btn svg {
+    stroke: white;
+    fill: white;
+    transition: all 0.3s ease;
+}
+
+.bg-btn:hover svg {
     stroke: black;
     fill: black;
     transition: all 0.3s ease;
 }
 
-.bg-btn:hover svg {
-    stroke: white;
-    transition: all 0.3s ease;
-    fill: white;
-}
-
 .bg-btn:hover {
     scale: 1 !important;
-    color: white;
+    color: black;
+    background-color: rgb(82 175 230);
     transform: none !important;
-    background-color: #c9692e;
     transition: all 0.3s ease;
 }
 
@@ -224,10 +224,11 @@ body {
 
 .bg-btn {
     border-radius: 9999px;
-    color: black;
+    color: white;
+    background-color: #c9692e;
     transition: all 0.3s ease;
     text-decoration: none;
-    background-color: rgb(82 175 230);
+
     padding-top: .5rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -384,13 +385,13 @@ body {
     }
 
     .sun img {
-        width: 19vw;
+        width: 22vw;
     }
 
     .sun {
         position: absolute;
-        right: -5vw;
-        top: 8vh;
+        right: -8vw;
+        top: 9.4vh;
     }
 }
 
