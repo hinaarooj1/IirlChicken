@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    ;
+    box-sizing: border-box;
+}
+
+.min-h {
+    min-height: 100vh;
+    background-image: url(../img/irlChicken\ \(1920\ x\ 1080\ px\)\ \(Website\).svg);
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.logo {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    z-index: 9;
+}
+
+.logo-img {
+    position: relative;
+
+    z-index: 9;
+    width: 50vw;
+}
+
+.abs-board img {
+    width: 26vw;
+    /* width: clamp(200px, 26vw, 400px); */
+}
+
+.abs-board {
+    position: absolute;
+    top: 19vh;
+    /* top: 200px; */
+    left: 7vw;
+}
+
+.abs-board h1 {
+    position: absolute;
+    top: 0;
+
+}
