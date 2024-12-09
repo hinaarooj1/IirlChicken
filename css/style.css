@@ -356,11 +356,12 @@ body {
     }
 
     .bottom-portal {
+
         right: 2vw;
     }
 
     .bottom-portal img {
-        width: 15.5vw;
+        width: 14.5vw;
     }
 
     .side-frame {
@@ -368,7 +369,7 @@ body {
     }
 
     .middle-frame {
-        width: 15vw;
+        width: 16vw;
     }
 
     .chicken-img img {
