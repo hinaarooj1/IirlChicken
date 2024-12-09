@@ -309,6 +309,7 @@ body {
     }
 
     .section-bg2 {
+        height: 100vh;
         background-position: center;
     }
 
