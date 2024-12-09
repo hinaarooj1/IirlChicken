@@ -596,7 +596,8 @@ body {
 
     .soilmiti {
         position: absolute;
-        bottom: -104px;
+        bottom:
+            0;
         z-index: 999;
     }
 
