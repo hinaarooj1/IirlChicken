@@ -336,11 +336,17 @@ body {
     }
 
     .side-frame {
-        width: 220px;
+        margin-top: 30px;
+        width: 250px;
+    }
+
+    .onlybn {
+        margin-top: 0;
+        margin-bottom: 30px !important;
     }
 
     .middle-frame {
-        width: 80px;
+        width: 100px;
     }
 
     .navigation-dekstop .nav-ul {
