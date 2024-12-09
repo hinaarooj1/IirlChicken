@@ -350,7 +350,7 @@ body {
     }
 }
 
-@media (max-width: 1400px) and (min-width: 1150px) {
+@media (max-width: 1600px) and (min-width: 1150px) {
     .side-frame {
         margin-top: 9vh;
     }
