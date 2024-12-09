@@ -456,7 +456,8 @@ body {
 
     .side-frame {
         margin-top: 30px;
-        width: 250px;
+        /* width: 250px; */
+        width: 75%;
     }
 
     .onlybn {
@@ -465,7 +466,7 @@ body {
     }
 
     .middle-frame {
-        width: 100px;
+        width: 150px;
     }
 
     .navigation-dekstop .nav-ul {
@@ -587,7 +588,7 @@ body {
     }
 
     .chicken-img img {
-        width: 350px;
+        width: 400px;
     }
 
     .bottom-tractor {
@@ -598,6 +599,7 @@ body {
         position: absolute;
         bottom:
             0;
+        left: -642px;
         z-index: 999;
     }
 
@@ -607,22 +609,42 @@ body {
         align-items: center;
         justify-content: center;
         margin-top: 30px;
-        margin-bottom: 200px;
+        margin-bottom: 240px;
     }
 
     .bottom-portal img {
-        width: 150px;
+        width: 120px;
+    }
+
+    .tractor-only {
+
+        position: absolute;
+        bottom: 63px;
+        left: 20px;
+    }
+
+    .tractor-only img {
+        width: 350px;
+
     }
 
     .bottom-portal {
-        bottom: 40px;
+        bottom: 53px;
     }
 }
 
 @media (max-width:600px) {
     .logo-img {
-        width: 350px;
-        margin-top: 40px;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .sun img {
+        width: 100px;
+    }
+
+    .chicken-img img {
+        width: 440px;
     }
 
     .sun {
@@ -640,13 +662,60 @@ body {
 
 }
 
+@media (max-width:580px) {
+    .chicken-img img {
+        width: 390px;
+    }
+
+    .bottom-portal img {
+        width: 80px;
+    }
+
+    .tractor-only {
+
+        position: absolute;
+        bottom: 67px;
+        left: 20px;
+    }
+
+    .soilmiti {
+        left: -776px;
+    }
+
+    .tractor-only img {
+        width: 250px;
+
+    }
+
+    .bottom-portal {
+        bottom: 50px;
+    }
+}
+
 @media (max-width:380px) {
+    .chicken-img img {
+        width: 350px;
+    }
+
     .logo-img {
-        width: 300px;
         margin-top: 40px;
     }
 
     .chicken-img img {
         width: 300px;
+    }
+
+    .bottom-portal img {
+        width: 70px;
+    }
+
+
+    .tractor-only img {
+        width: 200px;
+
+    }
+
+    .bottom-portal {
+        bottom: 53px;
     }
 }
