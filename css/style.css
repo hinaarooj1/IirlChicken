@@ -596,7 +596,7 @@ body {
 
     .soil {
         position: absolute;
-        bottom: -190px;
+        bottom: -100px;
         z-index: 999;
     }
 
@@ -611,6 +611,10 @@ body {
 
     .bottom-portal img {
         width: 150px;
+    }
+
+    .bottom-portal {
+        bottom: 40px;
     }
 }
 
