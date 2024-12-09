@@ -598,7 +598,6 @@ body {
         position: absolute;
         bottom: -104px;
         z-index: 999;
-        display: none !important
     }
 
     .inline-area {
