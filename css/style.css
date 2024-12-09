@@ -215,6 +215,12 @@ body {
     transition: all 0.3s ease;
 }
 
+.svg-copy {
+    display: flex
+}
+
+
+
 .bg-btn {
     border-radius: 9999px;
     color: black;
@@ -276,6 +282,19 @@ body {
 
 .mbl-only {
     display: none;
+}
+
+@media (min-width: 768px) {
+    .onhover {
+        transition: all 0.3s ease;
+        scale: 1;
+        cursor: pointer;
+    }
+
+    .onhover:hover {
+        transition: all 0.3s ease;
+        scale: 1.1;
+    }
 }
 
 @media (max-width:1200px) {

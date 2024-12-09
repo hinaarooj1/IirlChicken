@@ -214,8 +214,8 @@
                  src="./img/chicken-logo-board.png"
                  alt="">
         </div>
-        <div class="chicken-img">
-            <img src="./img/chicken.png"
+        <div class="chicken-img ">
+            <img class="onhover" src="./img/chicken.png"
                  alt="">
         </div>
     </div>
@@ -225,7 +225,8 @@
                  src="./img/token.png"
                  alt="">
             <div class="inside-address">
-                <p>CA: Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump</p> <span class="svg-copy">
+                <p >CA: <span id="contract-address" >Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump</span></p>
+                 <span id="copy-icon" class="svg-copy" style="cursor: pointer;">
                     <svg xmlns="http://www.w3.org/2000/svg"
                          class="h-6 w-6"
                          fill="none"
@@ -238,11 +239,14 @@
                         </path>
                     </svg>
                 </span>
+                 <span class="svg-copy" id="check-icon" style="display: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                </span>
             </div>
             <div class="inline-area" id="about">
-                <img class="side-frame onlybn" src="./img/left-text.png" alt="">
+                <img class="side-frame onlybn onhover" src="./img/left-text.png" alt="">
                 <img class="middle-frame" src="./img/middle-area.png" alt="">
-                <img class="side-frame" src="./img/right-text.png" alt="">
+                <img class="side-frame onhover" src="./img/right-text.png" alt="">
             </div>
         </div>
 
