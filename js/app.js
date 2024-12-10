@@ -7,7 +7,7 @@ let toggleNavShow = () => {
     bar.style.display = 'none'
     x.style.display = 'block'
 }
-let toggleNavHide = (clickedElement) => {
+let toggleNavHide = () => {
 
     let mblnav = document.getElementById('mblnav')
     let bar = document.getElementById('bar')
@@ -15,10 +15,7 @@ let toggleNavHide = (clickedElement) => {
     bar.style.display = 'block'
     x.style.display = 'none'
 
-    const allNavItems = document.querySelectorAll('.navigation-ul li');
-    allNavItems.forEach(item => item.classList.remove('active'));
 
-    clickedElement.classList.add('active');
 }
 const contractAddress = "Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump";
 const copyIcon = document.getElementById('copy-icon');

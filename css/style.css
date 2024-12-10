@@ -473,7 +473,9 @@ body {
 }
 
 @media (max-width:768px) {
-
+    .bottom-portal {
+        right: 20px;
+    }
 
     .token-area {
         padding-top: 15px;
@@ -652,7 +654,7 @@ body {
         position: absolute;
         bottom:
             0;
-        left: -642px;
+        left: 0px;
         z-index: 999;
     }
 
@@ -741,7 +743,7 @@ body {
     }
 
     .soilmiti {
-        left: -776px;
+        left: 0px;
     }
 
     .tractor-only img {
