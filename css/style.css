@@ -64,8 +64,10 @@ body {
     position: absolute;
     right: 30px;
     bottom: 0;
-    z-index: 9;
+    z-index: 7;
 }
+
+
 
 .section-bg2 {
     min-height: 100vh;
@@ -290,6 +292,31 @@ body {
     display: none;
 }
 
+.bottom-tractor {
+    z-index: 9;
+}
+
+.bottom-portal:hover {
+    transition: all .3s ease-in-out;
+    scale: 1.04 !important;
+}
+
+.bottom-portal {
+    transition: all .3s ease-in-out;
+
+}
+
+.bottom-trac {
+    z-index: -3;
+    width: 46vw !important;
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+}
+
+.spec {
+    display: none
+}
 
 @media (min-width: 768px) {
 
@@ -351,25 +378,49 @@ body {
 }
 
 @media (max-width: 1600px) and (min-width: 1150px) {
+    .spec {
+        display: block
+    }
+
+    .ans {
+        display: none
+    }
+
     .side-frame {
-        margin-top: 9vh;
+        margin-top: 8.3vh;
     }
 
     .bottom-portal {
 
-        right: 2vw;
+        right: 1.8vw;
     }
 
     .bottom-portal img {
         width: 14.5vw;
     }
 
+    .side-frame:hover {
+
+        scale: 1.2;
+    }
+
+    .inline-area {
+        gap: 3.3vw;
+    }
+
     .side-frame {
+        scale: 1.1;
         width: 28vw;
+    }
+
+    .middle-frame:hover {
+        scale: 1.2
     }
 
     .middle-frame {
         width: 16vw;
+        margin-top: 10px;
+        scale: 1.1
     }
 
     .chicken-img img {
@@ -510,7 +561,7 @@ body {
         background-color: hsla(0, 0%, 100%, .95);
         border-radius: 0.5rem;
         z-index: 9999;
-        top: 60px;
+        top: 72px;
         flex-direction: column;
         margin: auto;
         padding-inline: 10px;
@@ -638,11 +689,11 @@ body {
 @media (max-width:600px) {
     .logo-img {
         width: 100%;
-        margin-top: 80px;
+        margin-top: 10px;
     }
 
     .sun img {
-        width: 100px;
+        width: 150px;
     }
 
     .chicken-img img {
@@ -652,7 +703,7 @@ body {
     .sun {
         position: absolute;
         right: 0;
-        top: 90px;
+        top: 381px;
     }
 
     .min-h {
